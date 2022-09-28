@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Main {
 
 	public static int largestGap(int... arr) {
+		// Preserve the original array.
 		int[] newArray = arr.clone();
 		
 		Arrays.sort(newArray);
@@ -25,8 +26,6 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-
-		int[] arr = new int[] {9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5};
 		
 	}
 
